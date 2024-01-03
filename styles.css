@@ -1,0 +1,153 @@
+body{
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.lang{
+justify-content: center;
+text-align: center;
+margin-bottom:-30px;;
+}
+.lang a{
+    margin-right: 10px;
+    color: black;
+    font-size: 12px;
+    line-height: 10px;
+}
+.lang a:hover{
+    color: red;
+}
+.head{
+    text-align: center;
+}
+.head h1{
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 400;
+    font-family: 'DauphinPlain', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+
+}
+.head h4{
+    margin: 10px 10px 5px 10px;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+    margin-top: 0;
+    font-weight: 400;
+}
+.head h5{
+    margin: 5px 10px 20px 20px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+hr{
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.75),rgba(0,0,0,0));
+    color: black;
+    width: 70%;
+    margin-bottom: 0;
+}
+.main-1,  .main-3 {
+  margin-right:20px;
+}
+
+.main {
+   display:flex ;
+    width:65% ;
+    text-align: justify;
+    margin-left: 17%;
+    
+}
+.main p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.main h2{
+    font-size: 24px;
+    line-height: 24px;
+    font-family: DauphinPlain;
+    font-weight: 400;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.form{
+    display: flex;
+ 
+}
+.col{
+font-size: 14px;
+}
+.col-c{
+width: 150px;
+margin-left: 20px;
+}
+.col-a{
+    align-self: center;
+    margin-left: 30px;
+}
+.col-b{
+    margin-left: 20px;
+}
+.foot{
+    text-align: center;
+    margin-top: 10px;
+}
+.foot a{
+    color: black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.foot a:hover{
+    color: red;
+}
+.note{
+  
+
+}
+.note p{
+    text-align:justify;
+    font-size: 14px;
+    line-height: 20px;
+}
+.note h3{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.note div{
+    width: 65%;
+    margin-left: 18%;
+}
+
+
+
+.ipsum p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    width: 70%;
+    margin-left: 15%;
+}
+.ipsum span{
+    font-weight: 700;
+    text-align: left;
+    margin-left: 15%;
+    font-size: 14px;
+    line-height: 20px;
+}
+.lorem{
+    color: black;
+}
+.lorem:hover{
+    color: red;
+}
+.head a{
+    color: black;
+}
+.head a:hover{
+    color: red;
+}
