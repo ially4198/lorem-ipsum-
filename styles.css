@@ -50,17 +50,19 @@ hr{
     width: 70%;
     margin-bottom: 0;
 }
-.main-1,  .main-3 {
-  margin-right:20px;
-}
+
 
 .main {
-   display:flex ;
-    width:65% ;
-    text-align: justify;
-    margin-left: 17%;
-    
+   display:grid;
+   grid-template-columns: 50% 50%;
+   grid-gap: 20px;
+   max-width:910px;
+
+   margin-left: 15%;
+   text-align: justify;
 }
+
+
 .main p{
     font-size: 14px;
     line-height: 20px;
@@ -74,22 +76,17 @@ hr{
     font-family: 'Open Sans',Arial,sans-serif;
 }
 .form{
-    display: flex;
- 
+    display: grid;
+    grid-template-columns:18% 35% 47% ;
+    min-width: 300px;
+    max-width: 300px;
 }
 .col{
 font-size: 14px;
 }
-.col-c{
-width: 150px;
-margin-left: 20px;
-}
 .col-a{
     align-self: center;
-    margin-left: 30px;
-}
-.col-b{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .foot{
     text-align: center;
@@ -150,4 +147,14 @@ margin-left: 20px;
 }
 .head a:hover{
     color: red;
+}
+@media screen and (max-width:992px) {
+    .main{
+        margin-left: 3%;
+    }
+    .note div{ 
+        margin-left: 3%;
+        width: 95%;
+    }
+
 }
